@@ -1,0 +1,333 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+<<<<<<< HEAD
+<<<<<<< HEAD
+    <list default="true" id="cd3b11c1-fa61-40a1-8fed-655f6657d489" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/server/testsite/corona/templates/corona/calendar.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+      <change beforePath="$PROJECT_DIR$/covid_19_all/JenanMessage.xlsx" beforeDir="false" afterPath="$PROJECT_DIR$/covid_19_all/JenanMessage.xlsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/testsite/corona/templates/corona/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/server/testsite/corona/templates/corona/index.html" afterDir="false" />
+=======
+>>>>>>> parent of 29aae208 (11/4)
+=======
+=======
+>>>>>>> parent of 1c10ca46 (update 1104)
+=======
+>>>>>>> parent of 1c10ca46 (update 1104)
+=======
+>>>>>>> parent of 1c10ca46 (update 1104)
+      <change beforePath="$PROJECT_DIR$/covid_19_all/CovidCount.xlsx" beforeDir="false" afterPath="$PROJECT_DIR$/covid_19_all/CovidCount.xlsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/covid_19_all/CovidPatientRoute.py" beforeDir="false" afterPath="$PROJECT_DIR$/covid_19_all/CovidPatientRoute.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/covid_19_all/JenanMessage.xlsx" beforeDir="false" afterPath="$PROJECT_DIR$/covid_19_all/JenanMessage.xlsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/covid_19_all/ScheduleServer.py" beforeDir="false" afterPath="$PROJECT_DIR$/covid_19_all/ScheduleServer.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/covid_19_all/areaLog.xlsx" beforeDir="false" afterPath="$PROJECT_DIR$/covid_19_all/areaLog.xlsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/testsite/areaLog.xlsx" beforeDir="false" afterPath="$PROJECT_DIR$/server/testsite/areaLog.xlsx" afterDir="false" />
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> parent of 1c10ca46 (update 1104)
+=======
+>>>>>>> parent of 29aae208 (11/4)
+=======
+      <change beforePath="$PROJECT_DIR$/main/main.html" beforeDir="false" afterPath="$PROJECT_DIR$/server/testsite/corona/templates/corona/main.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/testsite/corona/templates/corona/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/server/testsite/corona/templates/corona/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/testsite/corona/templates/corona/login.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/testsite/corona/templates/corona/test.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/testsite/corona/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/server/testsite/corona/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/testsite/corona/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/server/testsite/corona/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/testsite/testsite/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/server/testsite/testsite/urls.py" afterDir="false" />
+>>>>>>> parent of 425b77e8 (update)
+=======
+>>>>>>> parent of 1c10ca46 (update 1104)
+=======
+>>>>>>> parent of 29aae208 (11/4)
+=======
+>>>>>>> parent of 1c10ca46 (update 1104)
+=======
+>>>>>>> parent of 1c10ca46 (update 1104)
+    </list>
+=======
+    <list default="true" id="cd3b11c1-fa61-40a1-8fed-655f6657d489" name="Default Changelist" comment="" />
+>>>>>>> parent of ff45fdc7 (update 1104)
+=======
+    <list default="true" id="cd3b11c1-fa61-40a1-8fed-655f6657d489" name="Default Changelist" comment="" />
+>>>>>>> parent of ff45fdc7 (update 1104)
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectId" id="1xLdQnGnTj0kYWCEx4ofVpRHU8G" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/server/testsite/corona" />
+    <property name="settings.editor.selected.configurable" value="preferences.keymap" />
+=======
+    <property name="last_opened_file_path" value="$USER_HOME$/PycharmProjects/pythonProject" />
+>>>>>>> parent of 29aae208 (11/4)
+=======
+    <property name="last_opened_file_path" value="$USER_HOME$/PycharmProjects/pythonProject" />
+>>>>>>> parent of 29aae208 (11/4)
+=======
+    <property name="last_opened_file_path" value="$USER_HOME$/PycharmProjects/pythonProject" />
+>>>>>>> parent of 29aae208 (11/4)
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\swag0\Desktop\Corona_korea_keep-distance\server\testsite\corona\templates\corona" />
+      <recent name="C:\Users\swag0\Desktop\Corona_korea_keep-distance\server\testsite\corona\templatetags" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\swag0\Desktop\Corona_korea_keep-distance\server\testsite\corona" />
+      <recent name="C:\Users\swag0\Desktop\Corona_korea_keep-distance\server\testsite\corona\templatetags" />
+      <recent name="C:\Users\swag0\Desktop\Corona_korea_keep-distance\server\testsite\corona\templates\corona" />
+    </key>
+  </component>
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+  <component name="RunManager" selected="Python.ScheduleServer">
+    <configuration name="CovidPatientRoute" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+=======
+  <component name="RunManager" selected="Python.ScheduleServer">
+    <configuration name="KeepDistance" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+>>>>>>> parent of ff45fdc7 (update 1104)
+=======
+  <component name="RunManager" selected="Python.ScheduleServer">
+    <configuration name="KeepDistance" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+>>>>>>> parent of ff45fdc7 (update 1104)
+      <module name="Corona_korea_keep-distance" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/covid_19_all" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/covid_19_all/KeepDistance.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Main" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="Corona_korea_keep-distance" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/covid_19_all" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/covid_19_all/Main.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="NewsCrawling" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+=======
+  <component name="RunManager">
+    <configuration name="GPS_Reader_Saver" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+>>>>>>> parent of 29aae208 (11/4)
+=======
+  <component name="RunManager">
+    <configuration name="GPS_Reader_Saver" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+>>>>>>> parent of 29aae208 (11/4)
+=======
+  <component name="RunManager">
+    <configuration name="GPS_Reader_Saver" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+>>>>>>> parent of 29aae208 (11/4)
+      <module name="Corona_korea_keep-distance" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="C:\Users\swag0\anaconda3\envs\covid\python.exe" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/server/testsite/corona" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/server/testsite/corona/GPS_Reader_Saver.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+<<<<<<< HEAD
+    <recent_temporary>
+      <list>
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+        <item itemvalue="Python.ScheduleServer" />
+        <item itemvalue="Python.CovidPatientRoute" />
+        <item itemvalue="Python.Main" />
+        <item itemvalue="Python.NewsCrawling_test" />
+        <item itemvalue="Python.NewsCrawling" />
+=======
+        <item itemvalue="Python.GPS_Reader_Saver" />
+>>>>>>> parent of 29aae208 (11/4)
+=======
+        <item itemvalue="Python.GPS_Reader_Saver" />
+>>>>>>> parent of 29aae208 (11/4)
+=======
+        <item itemvalue="Python.GPS_Reader_Saver" />
+>>>>>>> parent of 29aae208 (11/4)
+=======
+    <configuration name="NewsCrawling_test" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="Corona_korea_keep-distance" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="C:\Users\swag0\anaconda3\envs\covid\python.exe" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/server/testsite/corona" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/server/testsite/corona/NewsCrawling_test.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="ScheduleServer" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="Corona_korea_keep-distance" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/covid_19_all" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/covid_19_all/ScheduleServer.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <list>
+      <item itemvalue="Python.NewsCrawling" />
+      <item itemvalue="Python.NewsCrawling_test" />
+      <item itemvalue="Python.KeepDistance" />
+      <item itemvalue="Python.Main" />
+      <item itemvalue="Python.ScheduleServer" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python.ScheduleServer" />
+        <item itemvalue="Python.Main" />
+        <item itemvalue="Python.NewsCrawling_test" />
+        <item itemvalue="Python.NewsCrawling" />
+        <item itemvalue="Python.KeepDistance" />
+<<<<<<< HEAD
+>>>>>>> parent of ff45fdc7 (update 1104)
+=======
+>>>>>>> parent of ff45fdc7 (update 1104)
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="cd3b11c1-fa61-40a1-8fed-655f6657d489" name="Default Changelist" comment="" />
+      <created>1630138290006</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1630138290006</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/server/testsite/corona/models.py</url>
+          <line>127</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/server/testsite/corona/NewsCrawling_test.py</url>
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+=======
+>>>>>>> parent of 29aae208 (11/4)
+=======
+>>>>>>> parent of 29aae208 (11/4)
+=======
+>>>>>>> parent of 29aae208 (11/4)
+  </component>
+</project>

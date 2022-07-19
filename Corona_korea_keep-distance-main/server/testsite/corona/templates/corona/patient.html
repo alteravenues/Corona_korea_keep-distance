@@ -1,0 +1,14 @@
+<div id="id_div">
+<script src="http://code.jquery.com/jquery-latest.js"></script>
+<script type="text/javascript">
+
+
+url = "patient/";
+var result = $.get(url, function(data){
+document.getElementById("patient").innerHTML = data;
+});
+
+
+    </script>
+    <p id="patient"></p></br>
+</div>

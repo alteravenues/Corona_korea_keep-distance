@@ -1,0 +1,14 @@
+<div id="id_div">
+<script src="http://code.jquery.com/jquery-latest.js"></script>
+<script type="text/javascript">
+
+
+url = "gnews/";
+var result = $.get(url, function(data){
+document.getElementById("gnews_list").innerHTML = data;
+});
+
+
+    </script>
+    <p id="gnews_list"></p></br>
+</div>

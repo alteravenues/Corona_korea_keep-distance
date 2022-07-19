@@ -1,0 +1,233 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+	{% load static %}
+	{% block content %}
+	<title>Corona Integrated Information System</title>
+	<meta charset="utf-8" />
+
+	<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+	<link rel="stylesheet" href="{% static 'css/main/main.css' %}">
+	<script src="http://code.jquery.com/jquery-latest.js"></script><! jquery 이용해야함 >
+	<script type="text/javascript" src="{% static 'js/main/gps.js' %}"></script><! gps값 >
+	<script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+	<script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+</head>
+<body class="is-preload" style="background-color:white;">
+{% if user.username == '' %}
+<!-- Wrapper -->
+<div id="wrapper">
+
+	<!-- Header -->
+	<header id="header">
+        <h1 style="font-size:30px"><a href="/">Covid-19 Integrated Information System</a></h1>
+
+        <form action="" method="POST">
+			   {% csrf_token %}
+		<div class="search-input" align="left">
+            <a href="" target="_blank" hidden></a>
+            <input type="text" name="loca" placeholder="지역 검색" style="float:center; width:200px; border:2px solid black">
+            <input type="submit" value="검색" style="width:50px; border:1px solid; pointer:cursor;">
+            <div class="autocom-box">
+                <!-- here list are inserted from javascript -->
+            </div>
+            <div class="autocom-box">
+                <!-- here list are inserted from javascript -->
+            </div>
+            <div class="icon"><i class="fas fa-search"></i></div>
+        </div>
+		  </form>
+	</header>
+
+	<!-- Menu -->
+
+
+	<!-- Actions -->
+
+
+	<!-- Main -->
+	<div id="main">
+
+		<!-- Post -->
+		<article class="post">
+			<header>
+				<div class="title">
+					<h2>
+						정부뉴스
+					</h2>
+				</div>
+
+			</header>
+
+            <details>
+                <summary>준수 수칙</summary>
+                <p>{% include "./junsu.html" %}</p>
+            </details>
+			<footer>
+
+
+			</footer>
+		</article>
+
+		<table border="1">
+			<th><h1>정부 뉴스</h1></th>
+		</table>
+		<!-- Post -->
+		{% include "./gnews.html" %}
+
+
+
+
+	</div>
+
+	<!-- Sidebar -->
+	<section id="sidebar">
+
+		<!-- Intro -->
+		<section id="intro">
+			<header>
+				<h2>Covid-19 Integrated Information System</h2>
+				<p>코로나 통합정보시스템</p>
+			</header>
+		</section>
+
+		<!-- Mini Posts -->
+		<section>
+			<ul>
+				<a href="/lg" class="btn">Login</a></br>
+				<a href="/" class="btn">확진자</a></br>
+				<a href="/news_page" class="btn">지역 뉴스</a></br>
+				<a href="/gnews_page" class="btn">정부 뉴스</a></br>
+				<a href="/pandj_page" class="btn">확진경로 재난문자</a></br>
+				<a href="/calendar" class="btn">캘린더</a></br>
+				<a href="/index1" class="btn">QnA 게시판</a></br>
+			</ul>
+			<section id="JHB">
+				<a href="https://github.com/Kim-JeongUng/Corona_korea_keep-distance" target="_blank"><img src="https://user-images.githubusercontent.com/82865325/144737979-8e1877b6-805d-48e9-b124-828d2e73e575.png"></a>
+			</section>
+		</section>
+		<!-- JHB logo -->
+
+
+		<!-- Footer -->
+	</section>
+
+</div>
+
+<!-- Scripts -->
+<script src="{% static 'js/main/breakpoints.min.js' %}"></script>
+<script src="{% static 'js/main/browser.min.js' %}"></script>
+<script src="{% static 'js/main/jquery.min.js' %}"></script>
+<script src="{% static 'js/main/main.js' %}"></script>
+<script src="{% static 'js/main/util.js' %}"></script>
+{% else %}
+<!-- Wrapper -->
+<div id="wrapper">
+
+	<!-- Header -->
+	<header id="header">
+        <h1 style="font-size:30px"><a href="/">Covid-19 Integrated Information System</a></h1>
+
+        <form action="" method="POST">
+			   {% csrf_token %}
+		<div class="search-input" align="left">
+            <a href="" target="_blank" hidden></a>
+            <input type="text" name="loca" placeholder="지역 검색" style="float:center; width:200px; border:2px solid black">
+            <input type="submit" value="검색" style="width:50px; border:1px solid; pointer:cursor;">
+            <div class="autocom-box">
+                <!-- here list are inserted from javascript -->
+            </div>
+            <div class="autocom-box">
+                <!-- here list are inserted from javascript -->
+            </div>
+            <div class="icon"><i class="fas fa-search"></i></div>
+        </div>
+		  </form>
+	</header>
+
+	<!-- Menu -->
+
+
+	<!-- Actions -->
+
+
+	<!-- Main -->
+	<div id="main">
+
+		<!-- Post -->
+		<article class="post">
+			<header>
+				<div class="title">
+					<h2>
+						정부뉴스
+					</h2>
+				</div>
+
+			</header>
+
+            <details>
+                <summary>준수 수칙</summary>
+                <p>{% include "./junsu.html" %}</p>
+            </details>
+			<footer>
+
+
+			</footer>
+		</article>
+
+		<table border="1">
+			<th><h1>정부 뉴스</h1></th>
+		</table>
+		<!-- Post -->
+		{% include "./gnews.html" %}
+
+
+
+
+	</div>
+
+	<!-- Sidebar -->
+	<section id="sidebar">
+
+		<!-- Intro -->
+		<section id="intro">
+			<header>
+				<h2>Covid-19 Integrated Information System</h2>
+				<p>코로나 통합정보시스템</p>
+			</header>
+		</section>
+
+		<!-- Mini Posts -->
+		<section>
+			<ul>
+				<a href="/logout" class="btn">Logout</a></br>
+				<a href="/" class="btn">확진자</a></br>
+				<a href="/news_page" class="btn">지역 뉴스</a></br>
+				<a href="/gnews_page" class="btn">정부 뉴스</a></br>
+				<a href="/pandj_page" class="btn">확진경로 재난문자</a></br>
+				<a href="/calendar" class="btn">캘린더</a></br>
+				<a href="/index1" class="btn">QnA 게시판</a></br>
+			</ul>
+			<section id="JHB">
+				<a href="https://github.com/Kim-JeongUng/Corona_korea_keep-distance" target="_blank"><img src="https://user-images.githubusercontent.com/82865325/144737979-8e1877b6-805d-48e9-b124-828d2e73e575.png"></a>
+			</section>
+		</section>
+		<!-- JHB logo -->
+
+
+		<!-- Footer -->
+	</section>
+
+</div>
+
+<!-- Scripts -->
+<script src="{% static 'js/main/breakpoints.min.js' %}"></script>
+<script src="{% static 'js/main/browser.min.js' %}"></script>
+<script src="{% static 'js/main/jquery.min.js' %}"></script>
+<script src="{% static 'js/main/main.js' %}"></script>
+<script src="{% static 'js/main/util.js' %}"></script>
+{% endif %}
+{% endblock %}
+
+</body>
+</html>

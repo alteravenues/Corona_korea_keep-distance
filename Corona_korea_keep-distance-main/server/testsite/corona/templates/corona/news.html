@@ -1,0 +1,53 @@
+<div id="id_div">
+<script src="http://code.jquery.com/jquery-latest.js"></script>
+<script type="text/javascript">
+
+
+function get_geo(){
+    if(!!navigator.geolocation){
+        navigator.geolocation.getCurrentPosition(successCallback,errorCallback);
+    }
+    else{
+        errorCallback();
+    }
+}
+function successCallback(position){
+    var lat = position.coords.latitude;
+    var lng = position.coords.longitude;
+    var url = "gps/"+lng+"/"+lat;
+        if("{{k}}" == '')
+        {
+            var result = $.get(url, function(data){
+                            url = "news/"+data;
+                        var result = $.get(url, function(data2){
+                        document.getElementById("news_list").innerHTML = data2;
+                       });
+                });
+        }
+        else
+        {
+             var result = $.get(url, function(data){
+                 url = 'news/"{{k}}"';
+                 var result = $.get(url, function(data2){
+                    document.getElementById("news_list").innerHTML = data2;
+                 });
+            });
+        }
+}
+ function errorCallback(){
+            var result = $.get(url, function(data){
+                 url = 'news/서울';
+                 var result = $.get(url, function(data2){
+                    document.getElementById("news_list").innerHTML = data2;
+                 });
+            });
+}
+
+
+get_geo();
+
+    </script>
+
+    <p id="news_list"></p></br>
+
+</div>

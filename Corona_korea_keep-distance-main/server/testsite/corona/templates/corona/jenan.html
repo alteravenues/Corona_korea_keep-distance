@@ -1,0 +1,44 @@
+<div id="mini-posts">
+    <script src="http://code.jquery.com/jquery-latest.js"></script>
+    <script type="text/javascript">
+    function get_geo(){
+        if(!!navigator.geolocation){
+            navigator.geolocation.getCurrentPosition(successCallback,errorCallback());
+        }
+        else{
+            errorCallback();
+        }
+    }
+    function successCallback(position){
+        var lat = position.coords.latitude;
+        var lng = position.coords.longitude;
+        var url = "gps/"+lng+"/"+lat;
+        if("{{k}}" == ''){
+        var result = $.get(url, function(data){
+                url = "jenan/"+data;
+                var result = $.get(url, function(data){
+                document.getElementById("mini-posts").innerHTML = data;
+	            });
+            });
+        }
+        else{
+            var result = $.get(url, function(data){
+            url = 'jenan/'+"{{k}}";
+            var result = $.get(url, function(data2){
+                document.getElementById("mini-posts").innerHTML = data2;
+                });
+            });
+        }
+    }
+function errorCallback(){
+    var result = $.get(url, function(data){
+            url = 'jenan/'+"서울";
+            var result = $.get(url, function(data2){
+                document.getElementById("mini-posts").innerHTML = data2;
+                });
+            });
+}
+    get_geo();
+</script>
+
+</div>
