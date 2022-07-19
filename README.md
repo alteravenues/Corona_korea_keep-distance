@@ -61,14 +61,20 @@ Use API
 
 행정안전부_재난문자방송 발령현황
 https://www.data.go.kr/tcs/dss/selectApiDataDetailView.do?publicDataPk=3058822
+
 공공데이터활용지원센터_보건복지부 코로나19 시·도발생 현황
 https://www.data.go.kr/tcs/dss/selectApiDataDetailView.do?publicDataPk=15043378
+
 인터넷 접속 기반 GPS 좌표 찾기 (구글 Geolocation)
 https://developers.google.com/maps/documentation/geolocation/overview
+
 GPS 좌표 기반 지역명 한글 변환 (카카오 역 지오코딩)
 https://developers.kakao.com/product/map
+
 Crawling
+
 지역별 거리두기 현황
 http://ncov.mohw.go.kr/regSocdisBoardView.do?brdId=6&brdGubun=68&ncvContSeq=495
+
 소단위 지역별 확진자 수
 http://ncov.mohw.go.kr/bdBoardList_Real.do?brdId=1&brdGubun=13&ncvContSeq=&contSeq=&board_id=&gubun=
